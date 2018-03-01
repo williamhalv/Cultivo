@@ -443,7 +443,6 @@ a.learn-more:hover, a.learn-more:active {
 
 .ld {
   background-image: url(img/ld.png);
-  margin-bottom: -21px;
 }
 .smoke {
   background-image: url(img/smoke.png);
@@ -455,6 +454,7 @@ a.learn-more:hover, a.learn-more:active {
 }
 .suscom {
   background-image: url(img/suscom.png);
+  margin-bottom: -21px;
 }
 .artspark {
   background-image: url(img/artspark.png);
