@@ -441,19 +441,22 @@ a.learn-more:hover, a.learn-more:active {
   display: flex;
 }
 
-.business {
+.ld {
   background-image: url(img/ld.png);
+  margin-bottom: -19px;
 }
-.securities {
+.smoke {
   background-image: url(img/smoke.png);
+  margin-bottom: -19px;
 }
-.startups {
+.wanderlift {
   background-image: url(img/wanderlift.png);
+  margin-bottom: -19px;
 }
-.asset-planning {
+.suscom {
   background-image: url(img/suscom.png);
 }
-.real-estate {
+.artspark {
   background-image: url(img/artspark.png);
 }
 
