@@ -443,18 +443,18 @@ a.learn-more:hover, a.learn-more:active {
 
 .ldnight {
   background-image: url(img/ld.png);
+  margin-right: 12px;
 }
 .smoke {
   background-image: url(img/smoke.png);
-  margin-bottom: -21px;
+  margin-left: 12px;
 }
 .wanderlift {
   background-image: url(img/wanderlift.png);
-  margin-bottom: -21px;
+  margin-right: 12px;
 }
 .suscom {
   background-image: url(img/suscom.png);
-  margin-bottom: -21px;
 }
 .artspark {
   background-image: url(img/artspark.png);
