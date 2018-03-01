@@ -749,6 +749,16 @@ h3 {
   }
 }
 @media screen and (max-width: 490px) {
+  .header {
+  position: relative;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/mobile.png);
+  background-size: cover;
+  background-position: right;
+}
   ul.jack li {
     margin-top: -80px;
     font-size: 1.8rem;
