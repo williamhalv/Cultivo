@@ -286,13 +286,18 @@ form {
 /#subscribe {
     display: block;
     margin: 0px auto 110px auto;
-
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 #subscribe h3 {
     font-size: 18px;
     font-family:
     margin-bottom: 35px;
     color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #subscribe .text {
@@ -303,7 +308,9 @@ form {
     font-size: 18px;
     border: none;
     box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
-
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 #subscribe .submit {
@@ -317,6 +324,9 @@ form {
     padding: 0;
     border: none;
     box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 @-webkit-keyframes one {
