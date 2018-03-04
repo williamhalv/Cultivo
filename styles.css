@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,600');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800');
+
 
 /* Setup and Formats */
 * {
@@ -25,6 +26,7 @@ html, body {
 .container.v-center [class*="col-"] {
   justify-content: center;
   align-items: center;
+  text-decoration: none !important;
 }
 .container .spacer {flex: 1;}
 .container .col-1 {flex: 1;}
@@ -75,8 +77,27 @@ html, body {
   margin-bottom: 14px;
 }
 
+.section-header2 {
+  position: relative;
+  margin-bottom: 14px;
+  margin-right: -40px;
+  font-size: 0.9em;
+}
+
 .col-6 {
   padding: 20px;
+  text-decoration: none !important;
+}
+.cta2 h3 {
+ font-weight: 400;
+ font-size: 2.0em;
+ letter-spacing: 0.02em;
+ color: #1E09CE;
+ text-transform: none;
+ text-align: center;
+ align-items: center;
+ margin-top: -100px;
+ margin-bottom: 100px;"
 }
 .col-8 {
   padding: 10px;
@@ -124,7 +145,6 @@ html, body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-
 /* Content */
 .header {
   position: relative;
@@ -139,10 +159,20 @@ html, body {
   padding: 0px 20px;
   min-height: 480px;
 }
+#students {
+  background-image: url(img/header_blue.png);
+}
 .header-content {
   padding-left: 0px;
   width: 70%;
 }
+#students-content {
+  padding-left: 100px;
+}
+#students-title {
+
+}
+
 .header.light {
   height: unset;
   background: unset;
@@ -231,7 +261,7 @@ ul.menu li:last-child {
 }
 .title {
   font-weight: 400;
-  font-size: 3.1em;
+  font-size: 3.0em;
   letter-spacing: 0.015em;
   text-align: left;
   color: #000000;
@@ -240,12 +270,28 @@ ul.menu li:last-child {
 }
 .cta {
   width: 70%;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.8em;
   letter-spacing: 0.02em;
   text-align: left;
-  color: #1E09CE;
+  color: #4C39E6;
   text-transform: none;
+  text-decoration: none;
+}
+
+.last-cta {
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+.last-cta h1 {
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #474BE6;
+  margin-bottom: 10px;
+  margin-top: 70px;
 }
 
 button {
@@ -266,8 +312,9 @@ button {
   text-transform: none;
   padding-left: 25px;
   padding-right: 25px;
-  padding-top: 8px;
+  padding-top: 5px;
   font-weight: 400;
+
 }
 
 .cta:hover {
@@ -286,9 +333,6 @@ form {
 /#subscribe {
     display: block;
     margin: 0px auto 110px auto;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
 }
 #subscribe h3 {
     font-size: 18px;
@@ -319,9 +363,52 @@ form {
     color: #ffffff;
     height: 50px;
     width: 140px;
-    background-color: #000000;
+    background-color: #210FB2;
     cursor: pointer;
     padding: 0;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#tell {
+        display: block;
+        margin: 0px auto 110px auto;
+}
+#tell h3 {
+    font-size: 18px;
+    font-family:
+    margin-bottom: 35px;
+    color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#tell .text {
+    font-family: "Titillium Web";
+    padding: 16px;
+    width: 250px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#tell .tell-cta {
+    font-family: "Titillium Web";
+    font-size: 20px;
+    color: #ffffff;
+    height: 40px;
+    width: 170px;
+    background-color: #000000;
+    cursor: pointer;
+    margin-left: -100px;
     border: none;
     box-shadow: 0px 0px 25px rgba(0,0,0,0.2);
     -webkit-appearance: none;
@@ -388,7 +475,9 @@ form {
   background-repeat: no-repeat;
   background-size: contain;
   text-align: center;
+  text-decoration: none !important;
 }
+
 .who-we-are .container {
   max-width: 750px;
   display: flex;
@@ -396,6 +485,7 @@ form {
   font-size: 0.94rem;
   line-height: 1.9rem;
   letter-spacing: 0.015rem;
+  text-decoration: none !important;
 }
 .collect {
   padding: 54px 20px 100px;
@@ -428,7 +518,6 @@ a.learn-more:hover, a.learn-more:active {
 .feature-blocks {
   position: relative;
   background-image: url(img/banner2_opaque.png);
-  background-color: #ffffff;
   background-size: cover;
   background-position: center;
   margin-bottom: 100px;
@@ -445,11 +534,17 @@ a.learn-more:hover, a.learn-more:active {
   transform: scale(1.1);
 }
 
+.top-padding {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none !important;
+  opacity: 0.5;
+}
+
 
 .feature-blocks .container {
   max-width: 920px;
   display: flex;
-  color: #fff;
   text-transform: uppercase;
   font-weight: 700;
   align-items: stretch;
@@ -474,23 +569,28 @@ a.learn-more:hover, a.learn-more:active {
   display: flex;
 }
 
-.ldnight {
+.ldnights {
   background-image: url(img/ld.png);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.18);
   margin-right: 12px;
 }
 .smoke {
   background-image: url(img/smoke.png);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.18);
   margin-left: 12px;
 }
 .wanderlift {
   background-image: url(img/wanderlift.png);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.18);
   margin-right: 12px;
 }
 .suscom {
   background-image: url(img/suscom.png);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.18);
 }
 .artspark {
   background-image: url(img/artspark.png);
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.18);
 }
 
 .tests {
@@ -517,6 +617,7 @@ a.learn-more:hover, a.learn-more:active {
   text-align: center;
 }
 h3 {
+  font-family: 'Titillium Web';
   font-weight: 700;
   font-size: 1.5625rem;
   margin-bottom: 44px;
@@ -733,19 +834,13 @@ h3 {
     font-size: 70%;
     line-height: 3.7em;
   }
-  .menu {
-    display: none;
-  }
+
 
   .cta {
     font-size: 2.3em;
   }
 
-  .cta2 {
-    max-width: 400px;
-    font-weight: 600;
-    font-size: 1.8em;
-    letter-spacing: 0.02em;
+  .cta-2 {
     color: #1E09CE;
     text-transform: none;
   }
@@ -757,6 +852,15 @@ h3 {
     padding: 25px 30px;
     margin-left: 80px;
   }
+  .footer-nav {
+    position: absolute;
+    padding: 25px 30px;
+    margin-left: 250px;
+  }
+
+    .menu {
+      display: none;
+    }
 }
 @media screen and (max-width: 490px) {
   .header {
@@ -769,14 +873,21 @@ h3 {
   background-size: cover;
   background-position: right;
 }
-  ul.jack li {
-    margin-top: -80px;
-    font-size: 1.8rem;
-  }
-    .footer-nav {
+
+.title {
+  margin-top: -20px;
+  margin-bottom: 10px;
+
+  width: 110%;
+}
+  .footer-nav {
     position: absolute;
     padding: 25px 30px;
     margin-left: 105px;
+  }
+  ul.jack li {
+    margin-top: -80px;
+    font-size: 1.8rem;
   }
   .header.thin h2 {
     font-size: 1.5em;
@@ -787,9 +898,10 @@ h3 {
   }
   .who-we-are .container {
     flex-direction: column;
+    background-color: #F9F9F9;
   }
-  .who-we-are .container .spacer {
-    height: 30px;
+  .button {
+    height: 70px;
   }
   .collect .container {
     flex-direction: column;
@@ -849,3 +961,4 @@ a.no-underline, a.no-underline:active, a.no-underline:visited, a.no-underline:ho
 .clear {
   clear: both;
 }
+
